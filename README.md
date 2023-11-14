@@ -6,17 +6,17 @@ Adminer is an excellent database management tool in a single PHP file written by
 ## Usage
 To include the library, go to your project's folder and run:
 ```
-composer require "miroc/laravel-adminer"
+composer require "alanmburr/laravel-adminer"
 ```
 
 To add adminer to Laravel routes (e.g. /adminer), update `routes/web.php` file with:
 ```
-Route::any('adminer', '\Miroc\LaravelAdminer\AdminerController@index');
+Route::any('adminer', '\AlanMBurr\LaravelAdminer\AdminerController@index');
 ```
 
 To autologin Adminer with Laravel default connection, add the following controller instead:
 ```
-Route::any('adminer', '\Miroc\LaravelAdminer\AdminerAutologinController@index');
+Route::any('adminer', '\AlanMBurr\LaravelAdminer\AdminerAutologinController@index');
 ```
 
 ### Disabling CSRF Middleware

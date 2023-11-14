@@ -1,21 +1,25 @@
 {
     "name": "dotzero/laravel-adminer",
     "description": "Adminer (by Jakub Vrana) wrapper for Laravel 5+",
-    "keywords": ["adminer", "laravel5", "database", "management"],
+    "keywords": ["adminer", "laravel10", "database", "management"],
     "license": "MIT",
     "authors": [
         {
             "name": "Miroslav Svitok",
             "email": "mirosvitok@gmail.com"
+        },
+        {
+            "name": "Alan Burr",
+            "email": "info@alanburr.us.eu.org"
         }
     ],
     "require": {
-        "php": "7.*",
-        "illuminate/support": "^5.5 || ~6.0 || ~7.0"
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^9.21|^10.0"
     },
     "autoload": {
         "psr-4": {
-            "Miroc\\LaravelAdminer\\": "src/"
+            "AlanMBurr\\LaravelAdminer\\": "src/"
         }
     },
     "minimum-stability": "dev"
