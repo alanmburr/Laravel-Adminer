@@ -1,5 +1,5 @@
 {
-    "name": "dotzero/laravel-adminer",
+    "name": "alanmburr/laravel-adminer",
     "description": "Adminer (by Jakub Vrana) wrapper for Laravel 5+",
     "keywords": ["adminer", "laravel10", "database", "management"],
     "license": "MIT",

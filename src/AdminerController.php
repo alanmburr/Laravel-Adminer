@@ -1,4 +1,4 @@
-<?php namespace Miroc\LaravelAdminer;
+<?php namespace AlanMBurr\LaravelAdminer;
 
 use Illuminate\Routing\Controller;
 
